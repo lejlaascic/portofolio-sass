@@ -1,0 +1,31 @@
+.contact {
+  height: 100vh;
+  padding-top: 40vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+      to right,
+      rgba($primary-color, 0.9),
+      rgba($primary-color, 0.3)
+    ),
+    url("../img/model1.jfif");
+  background-size: cover;
+  background-position: center;
+
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  &-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    font-size: 1.5rem;
+  }
+  .social-icons {
+    position: initial;
+    margin-top: 4rem;
+  }
+}

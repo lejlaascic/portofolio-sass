@@ -1,0 +1,13 @@
+.home {
+  height: 100vh;
+  padding-top: 40vh;
+  overflow: hidden;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("img/model1.jfif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
